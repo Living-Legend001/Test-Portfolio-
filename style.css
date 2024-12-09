@@ -1,0 +1,320 @@
+body {
+    background-color: orangered;
+}
+
+h1 {
+    color: white;
+    margin-left: 250px;
+    font-family: Italic;
+    font-size: 55px;  
+}
+
+.menu-bar
+{
+    background: black;
+    width: 780px;
+    border-radius: 13px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+
+.menu-bar ul li
+{
+    width: 55px;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.menu-bar ul li a
+{
+text-decoration: none;
+width: 16px;
+color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+background: brown;
+border-radius: 3px;
+}
+
+.name {
+    color: purple;
+    font-size: 55px;
+}
+
+.still {
+    color: black;
+    font-size: 22px;
+    
+}
+
+
+
+h2 {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+h3 {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+.profile-picture {
+	border-radius: 50%;
+	width: 270px;
+	height: 280px;
+	box-shadow:  0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .4s;
+    margin-left: 80px;
+    margin-top: 12px;
+}
+
+.profile-picture:hover {
+    cursor: pointer;
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
+}
+
+
+.my-grid {
+    margin-left: 10px;
+    width: 800px;
+    height: 300px;
+    border-radius: 13px;
+    background-color: #fff;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+
+.main {
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.done {
+height: 90px;	
+}
+
+p {
+    font-size: 11px;
+    font: bolder;
+}
+
+.dot {
+    padding-top: 12px;
+}
+
+
+.btn1 {
+	width: 80px;
+	display: inline-block;
+	margin-top: px;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-family: sans-serif;
+	
+}
+
+.btn1 {
+	background: black;
+	color: #fff;
+	border-radius: 13px;
+}
+
+
+.btn1:hover {
+	transform: scaleX(1.1);
+}
+
+
+
+.btn2 {
+	width: 80px;
+	display: inline-block;
+	margin-top: px;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-family: sans-serif;
+    margin-left: 7px;
+	
+}
+
+.btn2 {
+	background: orangered;
+	color: #fff;
+	border-radius: 13px;
+}
+
+
+.btn2:hover {
+	transform: scaleX(1.1);
+}
+
+
+
+.paid {
+    color: white;
+
+}
+
+
+.look-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+.sweet {
+
+}
+
+
+.pop-grid {
+    color: white;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: black;
+    margin-left: 195px;
+    height: 220px;
+    width: 427px;
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+
+
+.cover-picture {
+	border-radius: 50%;
+	width: 160px;
+	height: 200px;
+	box-shadow:  0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .4s;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.cover-picture:hover {
+    cursor: pointer;
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16);
+}
+
+.sim {
+    color: white;
+}
+
+.loop {
+   padding-top: 40px;
+   font-size: 17px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.fit {
+    color: orangered;
+}
+
+.zip {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cut {
+ 
+    font-size: 26px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bolder;
+    margin-left: 3px;
+}
+
+.sub {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bolder;
+    margin-left: 55edxpx; 
+}
+
+
+.fin {
+    background-color: white;
+    height: 340px;
+    width: 405px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.charge {
+    color: black;
+    text-align: center;
+    padding-top: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+.time {
+    color: orangered;
+}
+
+
+
+.form {
+	width: 380px;
+	position: center;
+	border-radius: 10px;
+	height:280px;
+	background: rgba(255, 255, 255); 
+	box-shadow:  0 10px 9px 0 rgba(74, 50, 30, .96);
+	transition: all ease-in-out .4s;
+	padding: 25px;
+	margin-left: 4px;
+}
+
+
+
+
+.form input {
+	width: 350px;
+	height: 35px;
+	border-right: none;
+	font-size: 15px;
+	margin-top: 8px;
+	border-radius: 8px;
+	font-family: sans-serif;
+	margin-left: 24px
+}
+
+
+.btnn {
+	width: 150px;
+	height: 40px;
+	color: white;
+	background: orangered;
+	border: none;
+	margin-top: 17px;
+    margin-left: 130px;
+	font-size: 18px;
+	border-radius: 8px;
+	cursor: pointer;
+	
+}
+
+
+.btnn:hover {
+    background: black;
+	transform: scale3d(1.1);
+}
